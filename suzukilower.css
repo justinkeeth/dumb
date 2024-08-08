@@ -1,54 +1,43 @@
-
 td {
    border-style:solid;
    border-width:1px;
    width: 10%;
-
+   background: #ECECEC;
 }
 h1 {
     text-align: center;
+}
+tr{
+    height: 2em;
+
 }
 
 
 p {
     text-align: center;
-    color: black; font-family:Calibri, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
+    color: black; 
+    font-family:Calibri, sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
     font-size: 14px; margin:0pt;
 }
 
-
-/*.s9 {
-    padding-left: 1px;
-    text-indent: 0pt;
-    line-height: 10px;
+tr:nth-of-type(n) {
 
 }
-/*.s10 {
-    padding-top: 7px;
-    padding-left: 237px;
-    text-align: center;
-    text-indent: 0pt;
 
-}
-/* .s14 {
-    text-indent: 0pt;
-    line-height: 11pt;
-}*/
-/* .s15 {
-     padding-left: 1pt;
-     text-indent: 0pt;
-     line-height: 11pt;
-}*/
+
 
 table {
     border-collapse:collapse;
     margin-left:31px;
+    width: 80%;
 
 }
 
 .trtall {
   height: 12px;
-//8pt = 11px
 }
 
  
@@ -59,15 +48,15 @@ background-color: #A6A6A6;
 
 
 .tdthirdhead {
-    background-color: #A6A6A6;
+    background: #A6A6A6;
 }
 
 .tdhead {
-     background-color:#FFF1CC;
+     background:#FAEBAC;
      height: 2.2em;
 }
 .tdsecond {
-    background-color: #3cdfff;
+    background: #6FB7FF;
      height: 1.5em;
  
 }
@@ -135,6 +124,10 @@ text-decoration: none; }
     font-weight: normal; 
     text-decoration: none;  }
 .s17 { color: black; 
+    font-family:Calibri, sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; }
     font-family:Calibri, sans-serif; 
     font-style: normal; 
     font-weight: normal; 
